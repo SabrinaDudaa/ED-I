@@ -1,0 +1,1 @@
+O trabalho foi testado e feito no windows. Então o makefile está feito nas regras do windows
