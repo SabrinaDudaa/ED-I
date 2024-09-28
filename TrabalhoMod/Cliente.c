@@ -28,3 +28,10 @@ Cliente* removeCliente(){
 
   return c;
 }
+
+Cliente *criararq(int id, char nome[MAX]) {
+  Cliente *c = (Cliente *)malloc(sizeof(Cliente));
+  c->id=id;
+  strcpy(c->nome,nome);
+  return c;
+}

@@ -16,3 +16,5 @@ Produto* novoProduto();
 Produto* vendProduto();
 
 Produto* editaDesc();
+
+Produto* leProduto(int id,char nome[MAX],char desc[MAX],int qtde);

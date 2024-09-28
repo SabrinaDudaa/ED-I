@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "produto.h"
+#include "Produto.h"
 
 #define MAX 50
 

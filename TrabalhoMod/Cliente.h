@@ -14,3 +14,5 @@ typedef struct cliente {
 Cliente* criarCliente();
 
 Cliente* removeCliente();
+
+Cliente *criararq(int id, char nome[MAX]);

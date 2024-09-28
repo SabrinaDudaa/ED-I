@@ -59,3 +59,14 @@ Produto* editaDesc(){
 
   return prod;
 }
+
+Produto* leProduto(int id,char nome[MAX],char desc[MAX],int qtde) {
+  Produto* prod = (Produto*)malloc(sizeof(Produto));
+
+  strcpy(prod->nome, nome);
+  strcpy(prod->desc, desc);
+  prod->quant=qtde;
+  prod->id=id;
+
+  return prod;
+}
